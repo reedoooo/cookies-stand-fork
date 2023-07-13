@@ -12,6 +12,6 @@ import NavBar from './components/NavBar.vue'
   <RouterView />
 </template>
 
-<style scoped>
-@import './assets/app.css';
+<style>
+@import './assets/main.css';
 </style>
