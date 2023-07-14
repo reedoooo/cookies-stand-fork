@@ -1,13 +1,28 @@
 <template>
   <main class="contact-page">
     <h1>Contact Us!</h1>
+
 <img class="logo" src="../assets/img/family.jpeg" alt="Salmon logo" style="width: 780px; height: 400px;">
+   <nav>
+        <router-link to="/">Home</router-link>
+        <router-link to="/sales">Sales</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </nav>
+
     <div class="content">
       <div class="contact-info">
         <div class="about">
           <p>Please contact us at the below number or email to book for large gatherings or bulk orders. We would love to help you celebrate! Custom balloons and other minor decorations available with booking 3 weeks in advance.</p>
           <p>You can call us at <span class="contact-number">1-234-COO-KIES</span> or email us at <span class="contact-email">email@cookies.com</span></p>
         </div>
+<div class="logo-container" style="text-align: center;">
+  <img class="logo" src="../assets/img/shirt.jpeg" alt="shirts" style="width: 350px; height: 300px;">
+</div>
+<div class="centered-text">
+  <br>
+  <p>Don't forget to ask about apparel during your visit! Limited shirts left!</p>
+  <br>
+</div>
 
         <div class="contact-form">
           <div class="form-box">
@@ -52,6 +67,11 @@ export default {
 </script>
 
 <style scoped>
+.centered-text {
+  text-align: center;
+}
+
+
 .contact-page {
   display: flex;
   flex-direction: column;
@@ -75,6 +95,15 @@ h1 {
   margin-bottom: 20px;
 }
 
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+
+}
+
 .parent-container {
   display: flex;
   justify-content: center;
@@ -84,6 +113,9 @@ h1 {
 
 
 .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -91,7 +123,6 @@ h1 {
   border: 1px solid #ccc;
   padding: 20px;
   width: 300px;
-  align-items: center;
 }
 
 .form-field {
@@ -158,4 +189,25 @@ h1 {
 .store-hours {
   font-size: 14px;
 }
+
+nav {
+  text-align: right; /* Align the links to the right */
+  margin-right: -1rem; /* Use margin-right instead of margin-left */
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+  margin-left: 0.5rem; /* Add margin-left for spacing */
+}
+
+nav a:first-of-type {
+  border: 0;
+}
+
+
 </style>
