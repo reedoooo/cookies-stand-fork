@@ -2,6 +2,12 @@
   <div>
 <h3 class="sales-title">Pat's Sales Data</h3>
 <img class="logo" src="../assets/img/fish.jpg" alt="Salmon logo" style="width: 860px; height: 400px;">
+   <nav>
+        <router-link to="/">Home</router-link>
+        <router-link to="/sales">Sales</router-link>
+        <router-link to="/contact">Contact</router-link>
+      </nav>
+
     <table class="sales-table">
       <thead>
         <tr>
@@ -244,6 +250,25 @@ export default {
 
 .sales-table tbody tr:last-child th:last-child {
   border-bottom: none;
+}
+
+nav {
+  text-align: center; /* Align the links to the right */
+  margin-right: -1rem; /* Use margin-right instead of margin-left */
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+  margin-left: 0.5rem; /* Add margin-left for spacing */
+}
+
+nav a:first-of-type {
+  border: 0;
 }
 
 

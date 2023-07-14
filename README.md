@@ -1,7 +1,8 @@
 # cookies-stand
-
 This template should help get you started developing with Vue 3 in Vite.
 
+## Collaboration:  
+Reed Vogt, Coriana Williams
 ## Problem Domain 
 Adding a form to your existing cookie stand project so that you can add new locations to the table by simply inputting their information with the form
 ## Recommended IDE Setup
