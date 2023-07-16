@@ -1,50 +1,26 @@
 # cookies-stand
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Collaboration:  
 Reed Vogt, Coriana Williams
 ## Problem Domain 
-Adding a form to your existing cookie stand project so that you can add new locations to the table by simply inputting their information with the form
-## Recommended IDE Setup
+The problem domain for the Salmon Cookies application in the context of the Vue.js framework involves developing a web application that allows Pat's Salmon Cookies business to calculate the number of cookies each location needs to make every day. This calculation is based on factors such as the hours of operation, minimum and maximum number of customers per hour, and the average number of cookies purchased per customer.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+The main objective is to provide a tool that helps manage supplies inventory and baking schedules for each location. The application should be adaptable, allowing Pat to easily add or remove locations from the daily projections report and modify input numbers based on different factors like the day of the week or special events.
 
-## Customize configuration
+In addition to the functionality, the problem domain also includes the design and branding aspects of the public-facing page. This involves creating a visually appealing website with a color scheme, fonts, and additional images that align with the Salmon Cookies brand. The goal is to present the necessary information in a clear and user-friendly manner to attract and engage potential customers.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Overall, the problem domain for the Salmon Cookies application in the Vue.js framework encompasses both the technical implementation of the calculations and data management, as well as the design and presentation of the public-facing website to support the business's branding and marketing efforts.
 
-## Project Setup
-
-```sh
+## Links and Resources
+- ![Vue](https://canvas.instructure.com/courses/6745216/assignments/37279120)
+- ![Deployed Site](https://canvas.instructure.com/courses/6745216/assignments/37279120)
+- ![UML](lab40UML.png)
+### Project Setup
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
+### Run Unit Tests
 npm run test:unit
-```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-## PROJECT FILE STRUCTURE
-
+### PROJECT FILE STRUCTURE
 .
 ├── index.html
 ├── LICENSE
