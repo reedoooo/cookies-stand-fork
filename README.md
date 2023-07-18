@@ -1,10 +1,22 @@
 # cookies-stand
 
-This template should help get you started developing with Vue 3 in Vite.
+<!-- This template should help get you started developing with Vue 3 in Vite. -->
+
+<!-- # Salmon Cookies -->
+
+## Overview
+
+Welcome to the Salmon Cookies coding project, an engaging business concept simulation aimed to showcase your web development skills. In this project, you will assist Pat, an entrepreneur with a knack for sweets and a passion for sustainable ecosystems, in branding his company, managing internal data, and more.
+
+Your task involves creating a proof of concept application to calculate the number of cookies each location must make every day. The application should also handle branding aspects, like the design and construction of a public-facing page. Make sure your code is neat, clean, and properly commented, as we want the code to be as scrumptious as the cookies!
 
 ## Problem Domain
 
-Adding a form to your existing cookie stand project so that you can add new locations to the table by simply inputting their information with the form
+Pat's Salmon Cookies, expected to be an international franchise, needs a system for managing its supplies inventory and baking schedule. The application you're about to build will be key for this. It should be adaptable and flexible to add or remove locations and easily modify the input numbers based on different factors.
+
+## Instructions
+
+Before starting, ensure you have forked the provided repository, "cookie-stand". Ensure it's properly set up with a license and a readme.
 
 ## Recommended IDE Setup
 
@@ -16,17 +28,58 @@ In addition to the functionality, the problem domain also includes the design an
 
 Overall, the problem domain for the Salmon Cookies application in the Vue.js framework encompasses both the technical implementation of the calculations and data management, as well as the design and presentation of the public-facing website to support the business's branding and marketing efforts.
 
-## Links and Resources
-- ![Vue](https://canvas.instructure.com/courses/6745216/assignments/37279120)
-- ![Deployed Site](https://codesandbox.io/p/github/cookies-stand/cookies-stand/main?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clk627jwx000g3b6ma0cm5v1k%2522%252C%2522sizes%2522%253A%255B70%252C30%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clk627jww000b3b6mzs8xnc0f%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clk627jww000f3b6mfj138yty%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clk627jww000d3b6mdop0wn16%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clk627jww000b3b6mzs8xnc0f%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clk627jww000a3b6m56cmpoz1%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252FREADME.md%2522%257D%255D%252C%2522id%2522%253A%2522clk627jww000b3b6mzs8xnc0f%2522%252C%2522activeTabId%2522%253A%2522clk627jww000a3b6m56cmpoz1%2522%257D%252C%2522clk627jww000d3b6mdop0wn16%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clk627jww000c3b6mvn9fje36%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%257D%255D%252C%2522id%2522%253A%2522clk627jww000d3b6mdop0wn16%2522%252C%2522activeTabId%2522%253A%2522clk627jww000c3b6mvn9fje36%2522%257D%252C%2522clk627jww000f3b6mfj138yty%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clk627jww000e3b6mcnqmkfio%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clk627k3q001ph2ehh0rn65hw%2522%257D%255D%252C%2522id%2522%253A%2522clk627jww000f3b6mfj138yty%2522%252C%2522activeTabId%2522%253A%2522clk627jww000e3b6mcnqmkfio%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D)
-- ![UML](lab40UML.png)
 ### Project Setup
+
 npm install
 npm run dev
+
 ### Run Unit Tests
+
 npm run test:unit
 
+### Pages Creation
+
+Start by creating three views pages within your project:
+
+1. **Sales Data** (`/src/views/SalesPage.vue`)
+2. **Home Page** (`/src/views/HomePage.vue`)
+3. **Contact Page** (`/src/views/ContactPage.vue`)
+
+You will also need at least one JavaScript file (example: `/src/App.vue`).
+
+### Sales Data
+
+Your task involves creating separate JS object literals for each shop location, responsible for generating sales data and providing output on the `sales.html`. This entails:
+
+- Storing the min/max hourly customers and the average cookies per customer in object properties
+- Generating a random number of customers per hour
+- Calculating and storing the simulated amounts of cookies purchased for each hour at each location
+- Displaying the values of each array as unordered lists in the browser
+- Calculating the sum of these hourly totals
+
+Please refer to the provided starter numbers for building these objects.
+
+### Home Page
+
+The homepage (`index.html`) should be appealing, readable, useful, and informative. It should contain:
+
+- A custom sans-serif Google Font for headings
+- A standard sans-serif web font for sales data (such as Arial, Verdana, or Helvetica)
+- A standard serif web font for text (such as Georgia, Times)
+- Different font colors for all three font uses
+- A background color for the default page background and a different background color for elements such as boxes and tables
+- All the typical stuff you'll find on the home page of a business: locations, hours, contact information, etc
+
+Make sure to run a Lighthouse Accessibility report, aiming for a score between 65-80.
+
+## Resources
+
+- ![Vue](https://canvas.instructure.com/courses/6745216/assignments/37279120)
+- ![Deployed Site](https://salmon-cookies.netlify.app/)
+- ![UML](lab40UML.png)
+
 ### PROJECT FILE STRUCTURE
+
 .
 ├── index.html
 ├── LICENSE
