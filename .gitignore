@@ -1,28 +1,133 @@
-# Logs
-logs
+# General
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.orig.*
+*.local
+*.sw?
+*~
+*.stackdump
 
-node_modules
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+.vs/
+
+# Directories
 dist
 dist-ssr
 coverage
-*.local
-
+node_modules/
+bower_components
+jspm_packages/
+.cache
+.expo/
+web-build/
+.build/Release
+.grunt
+.lock-wscript
+.typings
+.nyc_output
+.npm
+.serverless
+.next
+.nuxt
+.vuepress/dist
+.idea/
+.idea/**/
+.vscode/*
+.metro-health-check*
 /cypress/videos/
 /cypress/screenshots/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editors & IDEs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/httpRequests
+.idea/replstate.xml
+.idea_modules/
+.idea/sonarlint
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+*.iws
+out/
+cmake-build-*/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.iml
+*.ipr
+
+# Tools
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+lerna-debug.*
+logs
+.env
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+package-lock.json
+
+
+# Other
+cleanup
+Dockerfile
+docker-compose.yml
+.prettierrc
+.eslintrc.js
+.eslintrc.json
+.eslintignore
+babel.config.js
