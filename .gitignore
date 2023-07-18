@@ -131,3 +131,5 @@ docker-compose.yml
 .eslintrc.json
 .eslintignore
 babel.config.js
+jest.config.js
+jest.setup.js
